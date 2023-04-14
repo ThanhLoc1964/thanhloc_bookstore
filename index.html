@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thành Lộc Bookstore</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/img-index/ThanhLocBookstore.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="header_top" class="container">
+        <div class="header_left">
+          <a href="/" class="logo-page">
+            <img
+              src="./assets/img/img-index/ThanhLocBookstore.png"
+              alt="ThanhLocBookstore"
+            />
+          </a>
+        </div>
+
+        <div class="header_center">
+          <div class="box-search">
+            <form
+              action="https://www.google.com/search"
+              method="get"
+              class="box-search_container"
+            >
+              <input
+                type="text"
+                name="q"
+                placeholder="Tìm kiếm sản phầm mong muốn..."
+                class="input-text"
+              />
+              <input type="submit" name="" value="Tìm kiếm" />
+            </form>
+          </div>
+        </div>
+
+        <div class="header_right">
+          <a href="./giohang.html" class="bag-icon icon-header_top">
+            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+            <p class="sub-bag_header">Giỏ hàng</p>
+          </a>
+          <div class="block-user">
+            <div class="user-icon">
+              <i class="fa-solid fa-user icon-header_top"></i>
+            </div>
+            <div class="block-user_right">
+              <a href="./login.html">Đăng nhập</a>
+              <a href="./register.html">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navigation">
+        <div class="nav-container container">
+          <div class="navigation_left">
+            <div class="menu-product">
+              <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+                <span>Danh mục</span>
+              </div>
+
+              <div class="menu-content">
+                <ul class="menu-dropdown">
+                  <li>
+                    <a href="">Sách mới</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sách bán chạy</a>
+                  </li>
+
+                  <li>
+                    <a href="">Chính trị - Pháp luật</a>
+                  </li>
+
+                  <li>
+                    <a href="">Khoa học công nghệ - Kinh tế</a>
+                  </li>
+
+                  <li>
+                    <a href="">Văn học nghệ thuật</a>
+                  </li>
+
+                  <li>
+                    <a href="">Văn hoá xã hội - Lịch sử</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sách học ngoại ngữ</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sức khoẻ - Đời sống</a>
+                  </li>
+
+                  <li>
+                    <a href="">Du lịch</a>
+                  </li>
+
+                  <li>
+                    <a href="">Giáo trình</a>
+                  </li>
+
+                  <li>
+                    <a href="">Truyện, tiểu thuyết</a>
+                  </li>
+
+                  <li>
+                    <a href="">Tâm lý, tâm linh, tôn giáo</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sách thiếu nhi</a>
+                  </li>
+
+                  <li>
+                    <a href="">Văn phòng phẩm</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation_right">
+            <ul class="menu">
+              <p class="txt_line">
+                <a href="/">#Manga</a>
+                <a href="/">#Tiểu thuyết</a>
+                <a href="/">#Lịch sử</a>
+                <a href="/">#Xã hội</a>
+                <a href="/">#Lãng mạn</a>
+                <a href="/">#Việt Nam</a>
+              </p>
+            </ul>
+
+            <ul class="navigation_extra">
+              <li class="mark-down">
+                <a href="./cuahang.html">Cửa hàng</a>
+              </li>
+              <li>
+                <a href="./lienhe.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="home-page" class="container">
+        <div class="home-banner">
+          <div id="banner">
+            <div class="banner_right-container">
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 5</div>
+                  <img
+                    src="assets/img/slider/img1.jpg"
+                    alt="img1"
+                    width="1000px"
+                    height="382px"
+                  />
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 5</div>
+                  <img
+                    src="assets/img/slider/img2.jpg"
+                    alt="img1"
+                    width="1000px"
+                    height="382px"
+                  />
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 5</div>
+                  <img
+                    src="assets/img/slider/img3.jpg"
+                    alt="img1"
+                    width="1000px"
+                    height="382px"
+                  />
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 5</div>
+                  <img
+                    src="assets/img/slider/img4.jpg"
+                    alt="img1"
+                    width="1000px"
+                    height="382px"
+                  />
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">5 / 5</div>
+                  <img
+                    src="assets/img/slider/img5.jpg"
+                    alt="img1"
+                    width="1000px"
+                    height="382px"
+                  />
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)"
+                  ><i class="fa-solid fa-chevron-left"></i
+                ></a>
+                <a class="next" onclick="plusSlides(1)"
+                  ><i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </div>
+              <br />
+
+              <!-- The dots/circles -->
+              <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+              </div>
+            </div>
+
+            <div class="banner_right-container">
+              <div class="imgae-banner_right01">
+                <iframe
+                  width="390"
+                  height="172"
+                  src="https://www.youtube.com/embed/yZrvuX2rrNk"
+                  title="Động lực thực sự đến từ đâu? Sách Nhà Giả Kim | Better Version"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <div class="imgae-banner_right02">
+                <a href=""
+                  ><img
+                    src="./assets/img/slider/tham-tu-lung-danh-conan-109449.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Banner -->
+
+        <div id="product_container">
+          <!-- Product list -->
+          <div class="product-list">
+            <div class="section_header">
+              <h3>Phổ biến</h3>
+            </div>
+
+            <div class="section_content">
+              <div class="swiper-container">
+                <div class="swiper-silde" id="product_show"></div>
+              </div>
+            </div>
+          </div>
+          <!-- End Phổ biến product -->
+
+          <div class="product-list">
+            <div class="section_header">
+              <h3>Top Manga</h3>
+            </div>
+
+            <div class="section_content">
+              <div class="swiper-container">
+                <div class="swiper-silde">
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <!-- <ul class="product-actions">
+                    <li>
+                      <a href="#" title="Thêm vào giỏ hàng">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" title="Xem qua">
+                        <i class="fa-regular fa-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" title="Yêu thích">
+                        <i class="fa-regular fa-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" title="So sánh">
+                        <i class="fa-solid fa-chart-simple"></i>
+                      </a>
+                    </li>
+                  </ul> -->
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Top Manga -->
+
+          <div class="product-list">
+            <div class="section_header">
+              <h3>Kinh tế - Xã hội</h3>
+            </div>
+
+            <div class="section_content">
+              <div class="swiper-container">
+                <div class="swiper-silde">
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Kinh tế product -->
+
+          <div class="product-list">
+            <div class="section_header">
+              <h3>Văn phòng phẩm</h3>
+            </div>
+
+            <div class="section_content">
+              <div class="swiper-container">
+                <div class="swiper-silde">
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+
+                  <div class="product">
+                    <div class="product_thumbnail">
+                      <a href="">
+                        <img
+                          src="./assets/img/phobien-product/komi---nu-than-so-giao-tiep---tap-17.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+
+                    <a href="" class="product_category">Manga</a>
+
+                    <div class="product_content">
+                      <a href="">Komi - Nữ thần sợ giao tiếp - tập 17</a>
+                    </div>
+
+                    <p class="product_price">25.000 đ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Văn phòng phẩm Product-->
+        </div>
+
+        <div class="site-features">
+          <div class="features-container">
+            <div class="block-features_item">
+              <div class="block_left">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <div class="block_right">
+                <h4>Chuyển phát nhanh</h4>
+                <p>
+                  Giao hàng trong vòng 2-3 ngày sau khi đặt hàng (chỉ dành cho
+                  các sản phẩm được đánh dấu bằng tên lửa)
+                </p>
+              </div>
+            </div>
+
+            <div class="block-features_item">
+              <div class="block_left">
+                <i class="fa-solid fa-credit-card"></i>
+              </div>
+              <div class="block_right">
+                <h4>Thanh toán an toàn</h4>
+                <p>Thanh toán trực tuyến hoặc trực tiếp</p>
+              </div>
+            </div>
+
+            <div class="block-features_item">
+              <div class="block_left">
+                <i class="fa-solid fa-box"></i>
+              </div>
+              <div class="block_right">
+                <h4>Đặt hàng số lượng lớn</h4>
+                <p>Đặt hàng số lượng lớn cùng một lần</p>
+              </div>
+            </div>
+
+            <div class="block-features_item">
+              <div class="block_left">
+                <i class="fa-regular fa-comments"></i>
+              </div>
+              <div class="block_right">
+                <h4>Yêu cầu hỏi đáp</h4>
+                <p>Hỏi đáp trong 24h</p>
+              </div>
+            </div>
+
+            <div class="block-features_item">
+              <div class="block_left">
+                <i class="fa-solid fa-truck"></i>
+              </div>
+              <div class="block_right">
+                <h4>Vận chuyển</h4>
+                <p>Theo dõi vận chuyển</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End block -->
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-widgets">
+          <div class="widgets">
+            <div class="widgets-title">
+              <img
+                src="./assets/img/img-index/ThanhLocBookstore.png"
+                alt=""
+                width="300px"
+                height="49px"
+              />
+            </div>
+
+            <div class="widget_content">
+              <p style="padding-top: 8px">
+                Bình Hưng Hoà, Bình Tân, TP Hồ Chí Minh
+              </p>
+              <br />
+              <p>Công Ty Cổ Phần Phát Hành Sách TP HCM - Thành Lộc</p>
+              <br />
+              <p>
+                Thanhlocbookstore.com nhận đặt hàng trực tuyến và giao hàng tận
+                nơi. KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng
+                cũng như tất cả Hệ Thống Thành Lộc Bookstore trên toàn quốc.
+              </p>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Dịch vụ</h4>
+            </div>
+
+            <div class="widget_content">
+              <a style="padding-top: 32px" href="">Điều khoản sử dụng</a>
+              <a href="">Chính sách bảo mật thông tin cá nhân</a>
+              <a href="">Chính sách bảo mật thanh toán</a>
+              <a href="">Giới thiệu Thành Lộc</a>
+              <a href="">Phương thức thanh toán và xuất HĐ</a>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Hỗ trợ</h4>
+            </div>
+
+            <div class="widget_content">
+              <a style="padding-top: 32px" href=""
+                >Chính sách đổi - trả - hoàn tiền</a
+              >
+              <a href="">Chính sách bảo hành - bồi hoàn</a>
+              <a href="">Chính sách vận chuyển</a>
+              <a href="">Chính sách khách sỉ</a>
+              <a href="">Phương thức thanh toán và xuất HĐ</a>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Tài khoản</h4>
+            </div>
+
+            <div class="widget_content">
+              <a style="padding-top: 32px" href=""
+                >Đăng nhập/Tạo mới tài khoản</a
+              >
+              <a href="">Thay đổi địa chỉ khách hàng</a>
+              <a href="">Chi tiết tài khoản</a>
+              <a href="">Lịch sử mua hàng</a>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Liên hệ</h4>
+            </div>
+
+            <div class="widget_content">
+              <div class="location contact" style="padding-top: 32px">
+                <i class="fa-solid fa-location-pin"></i>
+                Q.Bình Tân, TP.HCM
+              </div>
+
+              <div class="mail contact">
+                <i class="fa-solid fa-envelope"></i>
+                locntps30421@fpt.edu.vn
+              </div>
+
+              <div class="phone contact">
+                <i class="fa-solid fa-phone"></i>
+                +0357671466
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification">
+      <div class="toast-content">
+        <i class="fas fa-solid fa-check check"></i>
+        <div class="message">
+          <span class="text-nt text-1">Thành công</span>
+          <span class="text-nt text-2">Sản phẩm đã được thêm vào giỏ hàng</span>
+        </div>
+        <i class="fa-solid fa-xmark close"></i>
+      </div>
+      <div class="progress"></div>
+    </div>
+
+    <!-- Quick view -->
+    <div class="modal">
+      <div class="modal-container">
+        <div class="product_container">
+          <div class="product_thumbnail_quickv">
+            <img src="./assets/img/img-sanpham/img1.jpg" alt="" />
+          </div>
+
+          <div class="product_info">
+            <h1 class="name-product">Komi---nu-than-so-giao-tiep---tap-17</h1>
+            <div class="product_meta">
+              <p>Nhà xuất bản:</p>
+              <span>Kim đồng</span>
+            </div>
+            <h4 class="product_price_q">15.000đ</h4>
+            <ul class="product_list_info">
+              <li>Tác giả: Tomohito Oda</li>
+              <li>ISBN: 978-604-2-23684-3</li>
+              <li>Năm xuất bản: 2023</li>
+              <li>Số trang: 192</li>
+            </ul>
+            <div class="product_shopping">
+              <input type="number" value="1" min="1" />
+              <button class="add-to-cart">Thêm vào giỏ hàng</button>
+              <button class="buy-btn">Mua ngay</button>
+            </div>
+          </div>
+
+          <div class="exit_btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/giohang.js"></script>
+    <script src="./assets/js/sanpham.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://uhchat.net/code.php?f=fc6385"></script>
+  </body>
+</html>

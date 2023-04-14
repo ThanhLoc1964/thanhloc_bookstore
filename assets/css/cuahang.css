@@ -1,0 +1,38 @@
+.title-store {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.slide-show {
+    text-align: center;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+}
+
+.imgslider {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+}
+
+.right {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+}

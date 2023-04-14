@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cửa hàng</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/cuahang.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/img-index/ThanhLocBookstore.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="header_top" class="container">
+        <div class="header_left">
+          <a href="/" class="logo-page">
+            <img
+              src="./assets/img/img-index/ThanhLocBookstore.png"
+              alt="ThanhLocBookstore"
+            />
+          </a>
+        </div>
+
+        <div class="header_center">
+          <div class="box-search">
+            <form
+              action="https://www.google.com/search"
+              method="get"
+              class="box-search_container"
+            >
+              <input
+                type="text"
+                name="q"
+                placeholder="Tìm kiếm sản phầm mong muốn..."
+                class="input-text"
+              />
+              <input type="submit" name="" value="Tìm kiếm" />
+            </form>
+          </div>
+        </div>
+
+        <div class="header_right">
+          <a href="./giohang.html" class="bag-icon icon-header_top">
+            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+            <p class="sub-bag_header">Giỏ hàng</p>
+          </a>
+          <div class="block-user">
+            <div class="user-icon">
+              <i class="fa-solid fa-user icon-header_top"></i>
+            </div>
+            <div class="block-user_right">
+              <a href="./login.html">Đăng nhập</a>
+              <a href="./register.html">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navigation">
+        <div class="nav-container container">
+          <div class="navigation_left">
+            <div class="menu-product">
+              <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+                <span>Danh mục</span>
+              </div>
+
+              <div class="menu-content">
+                <ul class="menu-dropdown">
+                  <li>
+                    <a href="">Sách mới</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sách bán chạy</a>
+                  </li>
+
+                  <li>
+                    <a href="">Chính trị - Pháp luật</a>
+                  </li>
+
+                  <li>
+                    <a href="">Khoa học công nghệ - Kinh tế</a>
+                  </li>
+
+                  <li>
+                    <a href="">Văn học nghệ thuật</a>
+                  </li>
+
+                  <li>
+                    <a href="">Văn hoá xã hội - Lịch sử</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sách học ngoại ngữ</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sức khoẻ - Đời sống</a>
+                  </li>
+
+                  <li>
+                    <a href="">Du lịch</a>
+                  </li>
+
+                  <li>
+                    <a href="">Giáo trình</a>
+                  </li>
+
+                  <li>
+                    <a href="">Truyện, tiểu thuyết</a>
+                  </li>
+
+                  <li>
+                    <a href="">Tâm lý, tâm linh, tôn giáo</a>
+                  </li>
+
+                  <li>
+                    <a href="">Sách thiếu nhi</a>
+                  </li>
+
+                  <li>
+                    <a href="">Văn phòng phẩm</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation_right">
+            <ul class="menu">
+              <p class="txt_line">
+                <a href="/">#Manga</a>
+                <a href="/">#Tiểu thuyết</a>
+                <a href="/">#Lịch sử</a>
+                <a href="/">#Xã hội</a>
+                <a href="/">#Lãng mạn</a>
+                <a href="/">#Việt Nam</a>
+              </p>
+            </ul>
+
+            <ul class="navigation_extra">
+              <li class="mark-down">
+                <a href="#">Cửa hàng</a>
+              </li>
+              <li>
+                <a href="./lienhe.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="breadcrumb-container">
+        <div class="breadcrumb">
+          <li><a href="/">Trang chủ</a></li>
+          /
+          <li>Cửa hàng</li>
+        </div>
+      </div>
+
+      <h2 class="title-store">Hình ảnh cửa hàng của chúng tôi</h2>
+
+      <div class="slide-show">
+        <div class="slider">
+          <img
+            class="imgslider"
+            src="./assets/img/img-cuahang/__original_drawn_by_xingzhi_lv__sample-173e1bae2ad046b91a2ffb15d84159b4.jpg"
+            alt=""
+          />
+
+          <i class="fa-solid fa-chevron-left left icon" onclick="prev()"></i>
+          <i class="fa-solid fa-chevron-right right icon" onclick="next()"></i>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-widgets">
+          <div class="widgets">
+            <div class="widgets-title">
+              <img
+                src="./assets/img/img-index/ThanhLocBookstore.png"
+                alt=""
+                width="300px"
+                height="49px"
+              />
+            </div>
+
+            <div class="widget_content">
+              <p style="padding-top: 8px">
+                Bình Hưng Hoà, Bình Tân, TP Hồ Chí Minh
+              </p>
+              <br />
+              <p>Công Ty Cổ Phần Phát Hành Sách TP HCM - Thành Lộc</p>
+              <br />
+              <p>
+                Thanhlocbookstore.com nhận đặt hàng trực tuyến và giao hàng tận
+                nơi. KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng
+                cũng như tất cả Hệ Thống Thành Lộc Bookstore trên toàn quốc.
+              </p>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Dịch vụ</h4>
+            </div>
+
+            <div class="widget_content">
+              <a style="padding-top: 32px" href="">Điều khoản sử dụng</a>
+              <a href="">Chính sách bảo mật thông tin cá nhân</a>
+              <a href="">Chính sách bảo mật thanh toán</a>
+              <a href="">Giới thiệu Thành Lộc</a>
+              <a href="">Phương thức thanh toán và xuất HĐ</a>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Hỗ trợ</h4>
+            </div>
+
+            <div class="widget_content">
+              <a style="padding-top: 32px" href=""
+                >Chính sách đổi - trả - hoàn tiền</a
+              >
+              <a href="">Chính sách bảo hành - bồi hoàn</a>
+              <a href="">Chính sách vận chuyển</a>
+              <a href="">Chính sách khách sỉ</a>
+              <a href="">Phương thức thanh toán và xuất HĐ</a>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Tài khoản</h4>
+            </div>
+
+            <div class="widget_content">
+              <a style="padding-top: 32px" href=""
+                >Đăng nhập/Tạo mới tài khoản</a
+              >
+              <a href="">Thay đổi địa chỉ khách hàng</a>
+              <a href="">Chi tiết tài khoản</a>
+              <a href="">Lịch sử mua hàng</a>
+            </div>
+          </div>
+
+          <div class="widgets">
+            <div class="widgets-title">
+              <h4>Liên hệ</h4>
+            </div>
+
+            <div class="widget_content">
+              <div class="location contact" style="padding-top: 32px">
+                <i class="fa-solid fa-location-pin"></i>
+                Q.Bình Tân, TP.HCM
+              </div>
+
+              <div class="mail contact">
+                <i class="fa-solid fa-envelope"></i>
+                locntps30421@fpt.edu.vn
+              </div>
+
+              <div class="phone contact">
+                <i class="fa-solid fa-phone"></i>
+                +0357671466
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/cuahang.js"></script>
+  </body>
+</html>
